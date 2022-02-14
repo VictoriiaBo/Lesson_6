@@ -1,0 +1,103 @@
+@import "nule.css";
+.wrapper{
+   overflow: hidden;
+   min-height: 100%;
+}
+.title{
+   font-size: 45px;
+   font-weight: 900;
+   font-style: italic;
+   text-align: center;
+   color: indigo;
+   text-shadow: indigo 0px 0px 10px;
+   margin: 25px 0px 25px 0px;
+}
+.name{
+   font-style: italic;
+   font-weight: 900;
+   font-size: 20px;
+}
+.text1{
+   font-size: 18px;
+   margin: 0px 50px 20px;
+   border-top: 10px double rgb(112, 40, 40);
+   border-left: 10px solid rgb(60, 46, 97);
+   border-right: 10px solid rgb(60, 46, 97);
+   border-bottom: 10px dotted rgb(213, 226, 31);
+}
+.text2{
+   font-size: 18px;
+   margin: 0px 50px 25px;
+   border: 10px dashed rgb(37, 176, 231);
+   border-bottom: none;
+}
+.text3{
+   font-size: 20px;
+   margin: 0px 90px 35px;
+   padding: 20px 20px;
+   text-align:justify;
+   border: 3px solid rgb(46, 30, 102);
+   line-height: 30px;
+   border-radius: 10px 90px 50px 5px;
+}
+.name2{
+   border-bottom: 3px dotted rgb(240, 6, 6);
+}
+.image{
+   margin: 0px 90px 35px;
+   border: double rgb(247, 6, 6);
+   border-radius: 25%;
+}
+.text4{
+   font-size: 19px;
+   text-align: justify;
+   color: lightcoral;
+   padding: 50px 290px;
+   margin: 0px 50px 25px;
+   border: solid rgb(177, 8, 163);
+   border-radius: 49% 51% 48% 52% / 100% 0% 100% 0% ;
+}
+.image2{
+   border-radius: 50%;
+   width: 540px;
+   height: 303px;
+   overflow: hidden;
+   margin-bottom: 25px;
+}
+.text5{
+   font-size: 19px;
+   font-weight: 900;
+   border: double 10px rgb(241, 218, 11);
+   margin: 0px 50px 40px;
+   padding: 20px;
+   outline: 10px double rgb(224, 10, 196);
+   /* border и outline одновременно для эксперимента */
+}
+.name3{
+   outline: 3px dashed rgb(158, 68, 68);
+}
+.text6{
+   font-size: 20px;
+   margin: 20px 100px 50px 10px;
+   padding: 15px;
+   border: 5px solid rgb(58, 32, 175);
+   box-shadow: 20px 20px 20px 0px rgb(12, 9, 63), 20px 20px 20px 0px rgb(73, 193, 214);
+}
+.text7{
+   font-size: 20px;
+   margin: 0px 100px 50px 10px;
+   padding: 30px;
+   border: 5px solid rgb(58, 32, 175);
+   box-shadow: inset 0px 0px 20px 0px rgb(5, 92, 17), 20px 20px 20px 0px rgb(136, 172, 8);
+   border-radius: 20px;
+   opacity: 0.5;
+}
+.name4{
+   visibility: hidden;
+}
+.name5{
+   opacity: 0;
+}
+.name6{
+   display: none;
+}
